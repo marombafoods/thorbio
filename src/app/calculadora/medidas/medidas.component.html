@@ -1,0 +1,66 @@
+<app-cabecalho></app-cabecalho>
+<h3>
+    Quais suas medidas...
+</h3>
+
+<form class="example-form">
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <label class="label-for">Gênero</label>
+            <br />
+            <mat-radio-group [(ngModel)]="genero" [ngModelOptions]="{standalone: true}">
+                <mat-radio-button value="feminino">Feminino</mat-radio-button>
+                <mat-radio-button class="margin-l-r-10" value="masculino">Masculino</mat-radio-button>
+            </mat-radio-group>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <label class="label-for">Idade</label>
+            <label class="label-for thumb-slider">{{idade}}</label>
+            <mat-slider class="full-width" max="80" min="18" step="1" thumbLabel="true" [(ngModel)]="idade"
+                [ngModelOptions]="{standalone: true}">
+            </mat-slider>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <label class="label-for">Altura</label>
+            <label class="label-for thumb-slider">{{altura}} cm</label>
+            <mat-slider class="full-width" max="230" min="130" step="1" thumbLabel="true" [(ngModel)]="altura"
+                [ngModelOptions]="{standalone: true}">
+            </mat-slider>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <label class="label-for">Peso</label>
+            <label class="label-for thumb-slider">{{peso}} kg</label>
+            <mat-slider class="full-width" max="180" min="40" step="1" thumbLabel="true" [(ngModel)]="peso"
+                [ngModelOptions]="{standalone: true}">
+            </mat-slider>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit" mat-raised-button (click)="avancarForm()" onClick="window.scroll({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+              });" disabled="{{!valido}}"
+                class="btn-xl btn-avancar" color="primary">
+                Avançar
+            </button>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12" style="text-align: center;">
+            <a href="javascript:;" (click)="voltarPassoAnterior()">Voltar</a>
+        </div>
+    </div>
+</form>

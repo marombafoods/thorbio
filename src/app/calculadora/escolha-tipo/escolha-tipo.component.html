@@ -1,0 +1,63 @@
+<app-cabecalho></app-cabecalho>
+<h3>
+  Qual condicionamento físico mais se assemelha ao seu atual:
+</h3>
+<form class="example-form">
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <mat-card [class]="card_01" (click)="escolherBiotipo('0')" style="cursor: pointer; ">
+        <mat-card-header>
+          <mat-card-title>Abaixo do Peso Ideal</mat-card-title>
+          <mat-card-subtitle>(Harris-Benedict)</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <mat-card [class]="card_02" (click)="escolherBiotipo('1')" style="cursor: pointer;">
+        <mat-card-header>
+          <mat-card-title>Próximo do Peso Ideal</mat-card-title>
+          <mat-card-subtitle>(Harris-Benedict)</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <mat-card [class]="card_04" (click)="escolherBiotipo('3')" style="cursor: pointer;">
+        <mat-card-header>
+          <mat-card-title>Muito acima do Peso</mat-card-title>
+          <mat-card-subtitle>(Mifflin-St Jeor)</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <mat-card [class]="card_03" (click)="escolherBiotipo('2')" style="cursor: pointer;">
+        <mat-card-header>
+          <mat-card-title>Atleta</mat-card-title>
+          <mat-card-subtitle>(Tinsley)</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md-12">
+      <button type="submit" class="btn-xl btn-avancar" mat-raised-button (click)="avancarForm()" onClick="window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });"
+        disabled="{{btn_selecionado_01 ? !btn_selecionado_01 : btn_selecionado_02 ? !btn_selecionado_02 : btn_selecionado_03 ? !btn_selecionado_03 : btn_selecionado_04 ? !btn_selecionado_04 : true }}"
+        color="primary">
+        Avançar
+      </button>
+    </div>
+  </div>
+</form>

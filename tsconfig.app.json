@@ -7,7 +7,11 @@
   },
   "files": [
     "src/main.ts",
-    "src/polyfills.ts"
+    "src/polyfills.ts",
+    "./src/app/calculadora/Painel.ts",
+    "./src/app/calculadora/FrequenciaTreino.ts",
+    "./src/app/calculadora/Biotipo.ts",
+    "./src/app/config/config.service.ts"
   ],
   "include": [
     "src/**/*.d.ts"

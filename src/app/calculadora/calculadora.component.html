@@ -1,0 +1,70 @@
+<section class="page-section" id="contact">
+  <div class="">
+    <div class="col-md-6" style="margin: 0 auto;">
+      <mat-card>
+        <div class="row">
+          <div class="col-md-12 col-xs-12" style="margin: 0 auto;">
+            <app-escolha-tipo [style.display]="formTipoVisivel ? 'block' : 'none'"></app-escolha-tipo>
+            <app-medidas [style.display]="formMedidasVisivel ? 'block' : 'none'"></app-medidas>
+            <app-atividade-fisica [style.display]="formAtividadeVisivel ? 'block' : 'none'"></app-atividade-fisica>
+            <app-resultado [style.display]="formResultadoVisivel ? 'block' : 'none'"></app-resultado>
+            <app-anti-fitness [style.display]="formAntiFitnessVisivel ? 'block' : 'none'"></app-anti-fitness>
+          </div>
+        </div>
+
+      </mat-card>
+    </div>
+  </div>
+  <!--
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+
+
+                
+          <mat-form-field class="full-width">
+            <mat-label>Favorite food</mat-label>
+            <input matInput placeholder="Ex. Pizza" value="">
+          </mat-form-field>
+
+
+                <form id="calculadoraForm" name="sentMessage" novalidate="novalidate">
+                    <h2 style="text-align: center;">
+                        Calculadora base
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ipsum aliquet, accumsan diam
+                        non.
+                    </p>
+
+                    <mat-form-field class="example-full-width">
+                      <mat-label>Favorite food</mat-label>
+                      <input matInput placeholder="Ex. Pizza" value="">
+                    </mat-form-field>
+
+                    <br />
+                    <div id="success"></div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Calcular</button>
+                    </div>
+                </form>
+
+                <form class="example-form">
+                  <mat-form-field class="example-full-width">
+                    <mat-label>Email</mat-label>
+                    <input matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+                           placeholder="Ex. pat@example.com">
+                    <mat-hint>Errors appear instantly!</mat-hint>
+                    <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                      Please enter a valid email address
+                    </mat-error>
+                    <mat-error *ngIf="emailFormControl.hasError('required')">
+                      Email is <strong>required</strong>
+                    </mat-error>
+                  </mat-form-field>
+                </form>
+
+            </div>
+        </div>
+    </div>-->
+</section>

@@ -1,0 +1,163 @@
+.instagram img {
+    width: 25px;
+}
+
+a{
+    color: #6f42c1 !important;
+}
+
+#contactForm {
+    padding: 20px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: -3px 5px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: -3px 5px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: -3px 5px 5px rgba(50, 50, 50, 0.77);
+    border-radius: 10px;
+}
+
+#calculadoraForm {
+    padding: 20px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: -3px 5px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: -3px 5px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: -3px 5px 5px rgba(50, 50, 50, 0.77);
+    border-radius: 10px;
+}
+
+.page-section {
+    margin-top: 30px;
+    background-color: #F1f1f1;
+}
+
+.bg-secondary {
+    background-color: #6f42c1 !important;
+}
+
+#mainNav .navbar-brand {
+    color: #FFF;
+}
+
+.copyright {
+    background-color: #FFF;
+    color: #212529 !important;
+}
+
+.btn-xl {
+    width: 100%;
+}
+
+img.perfil {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.control-group .col-md-6 {
+    float: left;
+}
+
+.floating-label-form-group {
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.card-01 {
+    text-align: left;
+}
+
+.card-02 {
+    text-align: left;
+}
+
+.card-03 {
+    text-align: left;
+}
+
+.card-04 {
+    text-align: left;
+}
+
+.selected {
+    background-color: #d7c1fd;
+    border: 2px solid #6f42c1;
+    opacity: 0.8;
+}
+
+.btn-avancar {
+    height: 50px;
+}
+
+.card-01 .header-image {
+    background-image: url('src\assets\images\magro_simpsons.png');
+    background-size: cover;
+}
+
+.card-02 .header-image {
+    background-image: url('src\assets\images\em_forma_simpsons.png');
+    background-size: cover;
+}
+
+.card-03 .header-image {
+    background-image: url('src\assets\images\atleta_simpsons.png');
+    background-size: cover;
+}
+
+.card-04 .header-image {
+    background-image: url('src\assets\images\obeso_simpsons.png');
+    background-size: cover;
+}
+
+.img-anti-fitness {
+    background-image: url('https://static-media.hotmart.com/2b7aBRZRphyv7xdmkz-b_vGVsSE=/600x600/smart/filters:format(jpg):background_color(white)/hotmart/product_contents/555f4be1-7fe1-49cc-827e-3b91e8857ad3/anti.png');
+    background-size: cover;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.margin-l-r-10 {
+    margin: 0 10px;
+}
+
+.label-for{
+    font-size: 14pt;
+    font-weight: 600;
+}
+.thumb-slider{
+    float: right;
+}
+  
+.example-full-width {
+width: 100%;
+}
+
+mat-card{
+border: 1px solid #dcdcdc;
+}
+
+@media (max-width: 768px) {
+    .floating-label-form-group:not(:first-child) {
+        padding: 0;
+        border-left: 0;
+    }
+
+    .card-02-resultado{
+        margin-top:5px;
+    }
+    
+    .page-section {
+        margin-top: 0 !important;
+    }
+}
