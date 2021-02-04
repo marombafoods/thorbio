@@ -1,5 +1,8 @@
 # Thorbio
 
+Veja a calculadora do Thor funcionando no site: https://thorbio.z13.web.core.windows.net/
+
+Para baixar e utilizar na sua máquina veja as instruções abaixo, informadas automaticamente pelo próprio Angular Cli
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
 
 ## Development server
