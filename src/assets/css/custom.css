@@ -150,6 +150,14 @@ mat-card{
 border: 1px solid #dcdcdc;
 }
 
+@media screen and (max-width: 600px) {
+  .custom-img {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
     .floating-label-form-group:not(:first-child) {
         padding: 0;
