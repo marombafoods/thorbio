@@ -89,7 +89,7 @@ body {
 }
 
 .selected {
-    background-color: #600606;
+    background-color: #e19f9f;
     border: 2px solid #000;
     opacity: 0.8;
 }
