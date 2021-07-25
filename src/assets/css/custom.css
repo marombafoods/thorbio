@@ -3,7 +3,7 @@
 }
 
 a{
-    color: #6f42c1 !important;
+    color: #600606 !important;
 }
 
 #contactForm {
@@ -30,7 +30,7 @@ a{
 }
 
 .bg-secondary {
-    background-color: #6f42c1 !important;
+    background-color: #600606 !important;
 }
 
 #mainNav .navbar-brand {
@@ -39,7 +39,7 @@ a{
 
 .copyright {
     background-color: #FFF;
-    color: #212529 !important;
+    color: #600606 !important;
 }
 
 .btn-xl {
@@ -90,7 +90,7 @@ body {
 
 .selected {
     background-color: #d7c1fd;
-    border: 2px solid #6f42c1;
+    border: 2px solid #600606;
     opacity: 0.8;
 }
 
