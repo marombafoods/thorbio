@@ -26,19 +26,19 @@ a{
 
 .page-section {
     margin-top: 30px;
-    background-color: #600606;
+    background-color: #000;
 }
 
 .bg-secondary {
-    background-color: #000 !important;
+    background-color: #600606 !important;
 }
 
 #mainNav .navbar-brand {
-    color: #000;
+    color: #600606;
 }
 
 .copyright {
-    background-color: #000;
+    background-color: #600606;
     color: #FFF !important;
 }
 
